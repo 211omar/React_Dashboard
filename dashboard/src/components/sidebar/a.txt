@@ -1,0 +1,5 @@
+monthly serarch inoput children yazmaq
+dashboardi outleti sarmalamaq
+resultlaari children elave etmek
+sidebar iconlara onclickde active clasi elave olunacaq
+inputlari forma almaq 

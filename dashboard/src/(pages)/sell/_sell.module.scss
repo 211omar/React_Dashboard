@@ -1,0 +1,94 @@
+@use "../../styles/variable" as var;
+.dashboard {
+  width: 81%;
+  padding: 20px;
+  display: inline-block;
+}
+.dashboard_open {
+  width: 92%;
+  padding: 20px;
+  display: inline-block;
+}
+
+.search {
+  background-color: var.$bg-color;
+  padding: 24px 28px;
+  border-radius: 12px;
+  h5 {
+    color: var.$neutral400;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .inputs {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+.products {
+  background-color: var.$bg-color;
+  padding: 16px 0;
+  border-radius: 12px;
+}
+
+.sellTotal {
+  background-color: var.$bg-color;
+  padding: 24px 28px;
+  border-radius: 12px;
+  max-height: 65%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.payment {
+  background-color: var.$bg-color;
+  padding: 24px 48px;
+  border-radius: 12px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  // align-items: center;
+  gap: 32px;
+  flex-direction: column;
+  h4 {
+    line-height: 36px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: var.$blue700;
+
+    strong {
+      color: var.$blue700;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 36px;
+    }
+  }
+  .yes_no {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    span {
+      color: var.$neutral400;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+    }
+    .method {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 24px;
+    }
+  }
+}

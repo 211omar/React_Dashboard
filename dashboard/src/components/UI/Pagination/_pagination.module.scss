@@ -1,0 +1,35 @@
+@use "../../../styles/variable" as var;
+
+.pagination{
+    gap: 12px;
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    justify-content: end;
+    .arrow_left{
+        width: 32px;
+        height: 32px;
+        padding: 7px;
+        border-radius: 6px;
+        border: 1px solid var.$blue500;
+        background-color: var.$blue50;
+    }
+    .btn{
+        width: 32px;
+        height: 32px;
+        color: var.$blue200;
+        padding: 2px 11px;
+        border-radius: 6px;
+        border: 1px solid var.$blue200;
+        background-color: var.$blue50;
+    }
+    .arrow_right{
+        width: 32px;
+        height: 32px;
+        padding: 7px;
+        border-radius: 6px;
+        transform: rotate(180deg);
+        border: 1px solid var.$blue500;
+        background-color: var.$blue50;
+    }
+}

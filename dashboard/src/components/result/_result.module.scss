@@ -1,0 +1,39 @@
+@use"../../styles/variable" as var;
+.card{
+    width: 33.333%;
+    height: 196;
+    padding: 18px 43px 24px 30px;
+    background-color: var.$bg-color;
+    border-radius: 16px;
+    backdrop-filter: blur(44.900001525878906px);
+    .icon{
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      padding: 15px;
+      // background-color: var.$error400;
+    }
+    span{
+        display: inline-block;
+        margin-top: 20px;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 24px;
+     color: var.$blue700;
+    }
+    .result{
+     margin-top: 10px;
+     font-size: 24px;
+     font-weight: 500;
+     line-height: 36px;
+     color: var.$neutral900;
+    }
+    .percent{
+     margin-top: 10px;
+     display: flex;
+     align-items: center;
+     .icon_arrow{
+        margin-right: 3px;
+     }
+    }
+}

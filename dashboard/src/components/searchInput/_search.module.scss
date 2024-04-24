@@ -1,0 +1,39 @@
+@use "../../styles/variable" as var;
+.search {
+  border-radius: 16px;
+  border: 1px solid var.$blue300;
+  padding: 16px;
+  // width: 392px;
+  display: flex;
+  background-color: var.$neutral25;
+  align-items: center;
+  justify-content: space-between;
+    
+  gap: 12px;
+
+  .srcInput {
+    font-family: Poppins, sans-serif;
+    padding: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: var.$blue500;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    &:focus{
+     .psrcInput{
+      border: 1px solid var.$blue500;
+     }
+    }
+    &::placeholder {
+        color: var.$blue200;
+
+      }
+  }
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
